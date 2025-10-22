@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Oxanium:wght@200..800&display=swap'); 
+
+html{
+  height: 100%;
+}
+
+/*Parallax*/
+.parallax {
+  min-height: 1500px
+}
+
+/*Pages Backgrounds*/
+
+#boardPage{
+  background-image: url('images/Board-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#calendarPage {
+  background-image: url('images/Calendar-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#contactPage{
+  background-image: url('images/Contact-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#docsPage{
+  background-image: url('images/Important-Docs-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#donorWallPage{
+  background-image: url('images/Donor-Wall-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#donorOptionsPage{
+  background-image: url('images/DonorOptionsPage.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+}
+#FAQPage{
+  background-image: url('images/FAQ-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#historyPage {
+  background-image: url('images/History-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#homePage{
+  background-image: url('images/Home-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#levelsPage{
+  background-image: url('images/Contribution-Levels-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#nextStepsPage{
+  background-image: url('images/Next-Steps-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#ourMissionPage{
+  background-image: url('images/Our-Mission-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#staffPage{
+  background-image: url('images/Staff\ Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#supportPage{
+  background-image: url('images/Support-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+#volunteerPage {
+  background-image: url('images/Volunteer-Page-Background.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/*Board Page*/
+/*End of Board Page*/
+
+/*Calendar Page*/
+#iframe-2 {
+  min-width: 100%;
+  min-height: 70vh;
+  border-radius: 20px;
+}
+.iframe-holder-2 {
+  background-color: rgba(255,255,255, 0.2);
+  padding: 20px;
+  border-radius: 25px;
+  overflow-y: visible;
+  width: 80vw;
+  margin: auto;
+}
+/*End of Calendar Page*/
+
+/*Contact Page*/
+#snowflake {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#snowflake1 {
+  max-height: 70%;
+}
+
+#conSec {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: 45%; */
+  padding: 50px 40px;
+  flex-shrink: 0;
+  background-color: #7169AE;
+}
+
+.img-attrib-2 {
+  position: absolute;
+  bottom: 140px;
+  padding: .25em;
+  color: white;
+  background-color: rgba(0,0,0,.2);
+  font-size: 16px;
+}
+/*End of Contact Page*/
+
+/*Contribution Levels Page*/
+#levelsPage h2, #donorOptionsPage h2 {
+  margin: 0px;
+  padding: 20px;
+}
+#levelsPage .conContainer h3 {
+  font-size: 2rem;
+  padding: 5px 50px;
+}
+#levelsPage .conContainer li {
+  font-size: 1.3rem;
+}
+#levelsPage .conContainer li:last-of-type { 
+  padding-bottom: 60px; 
+}
+.conContainer {
+  background-color: rgba(10, 17, 32, 0.5);
+  padding: 10px 40px 30px;
+}
+/*End of Contribution Levels Page*/
+
+
+/*Donation Options Page*/
+#donorOptionsPage .conContainer {
+  padding: 10px 40px 70px;
+}
+
+#donorOptionsPage .conContainer li {
+  font-size: 1.3rem;
+}
+#donorOptionsPage .conContainer p {
+  font-size: 2rem;
+  padding: 5px 50px;
+}
+
+/*End of Donation Options Page*/
+
+
+/*Donation Wall Page*/
+#donorWallPage article {
+  height: 350px;
+}
+
+#donorWallPage .accordion-menu h2 {
+  color:#51AFBD;
+   /* color: #05404F; */
+}
+
+#donorWallPage .accordion-menu p {
+  color: #041414;
+}
+
+#donorWallPage .accordion-menu ul {
+    background-color: #CAEFF5;
+	/* box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 
+	0 2px 2px 0 rgba(33, 127, 137, 0.9); */
+  	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 
+	0 2px 2px 0 rgba(81, 175, 189, 0.9), 0 2px 5px 0 rgba(255, 255, 255, 0.9);
+}
+
+#donorWallPage .accordion-menu ul li {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 4px;
+	padding-top: 18px;
+    border-top: 1px dotted #dce7eb;
+}
+
+#donorWallPage hr {
+  height: 10px;
+  border: 6px solid #CAEFF5;
+  /* border-radius: 5px; */
+}
+
+#donorWallPage button {
+  background-color: #CAEFF5;
+  color: #51AFBD;
+  margin: 15px auto;
+  width: 20%;
+  display: inline-block;
+  border-radius: 15px;
+  border: none;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  cursor: pointer;
+}
+
+#donorWallPage button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#donorWallPage button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#donorWallPage button:hover span {
+  padding-right: 25px;
+}
+
+#donorWallPage button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*End of Donation Wall Page*/
+
+/*FAQ Page*/
+#FAQPage .accordion-menu p, #FAQPage .accordion-menu ul li li {
+	color: rgba(66, 54, 120, 0.8);
+}
+#FAQPage .accordion-menu h2 {
+	color: rgba(28, 30, 91, 0.8);
+}
+#FAQPage .accordion-menu ul {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 
+	0 8px 8px 0 rgba(122, 79, 122, 0.9);
+}
+#FAQPage .accordion-menu ul ul {
+	box-shadow: none
+}
+/*End of FAQ Page*/
+
+/*History Page*/
+#historyPage p {
+      padding: 10px 70px;
+}
+#historyPage p:last-child {
+      padding: 10px 50px 100px;
+}
+/*End of History Page*/
+
+/*Home Page*/
+/* #SNlogo {
+  margin: auto;
+background-image: url('images/Official_Supernova_Design_1_-removebg-preview.png');
+  width: 900px;  
+height: 600px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0px;
+} */
+
+#SNlogo {
+  margin: 30px auto;
+  width: 70vw;  
+height: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 0px;
+}
+
+#flag {
+  display: grid;
+  place-items: center;
+  /* border: 3px solid green;  */
+   overflow: hidden;
+}
+
+#flag1 {
+  max-width: 100%
+}
+
+#whatIsBox > h4 {
+  font-size: 50px;
+}
+
+#whatIsBox > p {
+  text-align: left;
+}
+
+#whatIsBox > ul {
+  margin:0;
+  padding:0 20px;
+}
+ 
+#whatIsBox ul li {
+  text-align: left;
+  padding:0;
+  width:150px;
+  margin:10px 10px;
+}
+
+#homePage h1 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  text-decoration: underline;
+  font-size: 5rem;
+}
+#homePage h2 {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+/*End of Home Page*/
+
+/*Next Steps Page*/
+#nextStepsPage .accordion-menu p {
+	color: rgba(153, 88, 64, 0.8);
+}
+#nextStepsPage .accordion-menu h2 {
+	color: rgba(88, 49, 44, 0.8);
+}
+#nextStepsPage .accordion-menu ul {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 
+	0 8px 8px 0 rgba(42, 107, 136, 0.9);
+}
+/*End of Next Steps Page*/
+
+/*Our Mission Page*/
+#ourMissionPage p {
+      padding: 10px 70px;
+}
+#ourMissionPage p:last-child {
+      padding: 10px 50px 100px;
+}
+/*End of Our Mission Page*/
+
+/*Staff Page*/
+/* .portrait {
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: auto;
+  background-size: 300px 350px;
+  color: white;
+  background: 50% 50% no-repeat; 
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+} */
+
+.portrait {
+  max-width: 60%;
+  width: 450px;
+  height: auto;
+  border: solid 3px #61151B;
+  border-radius: 50%;
+  box-shadow: 	rgba(27, 20, 26, 0.35) 0px 5px 15px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+.portrait:hover {
+  box-shadow: 0 12px 20px 10px rgba(27,20,21,0.8);
+   background-color: #1B141A;
+}
+/*End of Staff Page*/
+
+/*Support Page*/
+#main > article {
+  flex: 1;
+}
+#main > aside {
+  flex: 0 0 20vw;
+  background: #CF5E70;
+  order: -1;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #2F1516;
+  border-bottom: white 3px solid;
+  background: url("images/1.png") repeat fixed center;
+  background-attachment: scroll;
+  min-height: 350px;
+}
+header, article, aside {
+  padding: 2em 4em;
+}
+article > ul, section > ul {
+  list-style-type:none;
+}
+#supportPage p {
+      padding: 10px 70px;
+}
+#supportPage p:last-child {
+      padding: 10px 50px 100px;
+}
+/*End of Support Page*/
+
+
+/*Volunteer Page*/
+#volSec {
+  margin: auto 15% 20px;
+  padding: 40px 40px;
+  border-radius: 25px;
+  background-color: rgba(10, 18, 39, 0.6);
+  /* background-color: rgba(177, 129, 35, 0.4); */
+}
+
+#calSec {
+  padding: 50px 100px;
+  background-color: #252020;
+}
+
+.iframe-holder {
+  background-color: rgba(255,255,255, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  /* overflow-y: visible; */
+  width: fit-content;
+  margin: 0px auto 30px;
+}
+
+#iframe {
+  /* min-width: 80%;
+  min-height: 60vh;
+  border-radius: 20px; */
+  /* width: 950px;
+  height: 650px; */
+  width: 640px;
+  height: 855px;
+}
+#volunteerPage p {
+      padding: 10px;
+}
+/*End of Volunteer Page*/
+
+
+#main {
+  display: flex;
+  flex: 1;
+  /* flex-direction: column; */
+}
+
+#mainCoach, #asstCoach, #flag, #whatIsBox  {
+  /* background: beige; */
+  flex: 50%;
+  padding: 10px 50px 50px
+}
+
+
+/*Small Screens*/
+@media(max-width: 900px) {
+  #conSec h2 {
+    font-size: 2.2rem; /* 1.875 * 16 = 30px */
+  }
+  #conSec h4 {
+      font-size: 1.4rem;
+  } 
+
+  .portrait {
+  max-width: 90%;
+  height: auto;
+}
+}
+
+@media(max-width: 800px){
+  /* #snowflake {
+    flex: 80%;
+  }
+  #snowflake1 {
+    max-height: 50%;
+  }
+  #conSec {
+    flex: 20%;
+  }    */
+  #contactPage main {
+    flex-direction: column;
+  }
+
+}
+
+/*Smallest Screens*/
+@media screen and (max-width: 576px) {
+   #mainCoach, #asstCoach, #snowflake, #conSec, #flag, #whatIsBox {
+    flex: 100%;
+    /* color: red; */
+  }  
+  #main{
+      flex-direction: column;
+  }
+  #main > aside {
+    border-bottom: white 3px solid;
+  }
+  h1 {
+    font-size: 3.2rem;
+  }
+  .iframe-holder-2 {
+  width: 90vw;
+  }
+
+  #donorOptionsPage .conContainer, #levelsPage .conContainer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /*Volunteer Page*/
+  #volSec {
+  margin: auto 10%;
+  padding: 30px 30px;
+  }
+  #iframe {
+    width: 400px;
+    height: 970px;
+  }
+  .iframe-holder {
+    padding: 10px;
+    margin: 20px auto 30px;
+  }
+}
+
