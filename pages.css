@@ -388,7 +388,7 @@ height: auto;
 /*End of Home Page*/
 
 /*Next Steps Page*/
-#nextStepsPage .accordion-menu p {
+/* #nextStepsPage .accordion-menu p {
 	color: rgba(153, 88, 64, 0.8);
 }
 #nextStepsPage .accordion-menu h2 {
@@ -397,7 +397,11 @@ height: auto;
 #nextStepsPage .accordion-menu ul {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 
 	0 8px 8px 0 rgba(42, 107, 136, 0.9);
-}
+} */
+ #nextStepsPage p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+ }
 /*End of Next Steps Page*/
 
 /*Our Mission Page*/
@@ -463,11 +467,8 @@ header, article, aside {
 article > ul, section > ul {
   list-style-type:none;
 }
-#supportPage p {
+#supportPage #main p {
       padding: 10px 70px;
-}
-#supportPage p:last-child {
-      padding: 10px 50px 100px;
 }
 /*End of Support Page*/
 
@@ -591,5 +592,20 @@ article > ul, section > ul {
     padding: 10px;
     margin: 20px auto 30px;
   }
+
+  /*Support Page*/
+  #supportPage #main p {
+    padding: 10px 20px 30px;
+  }
+  #supportPage h1 {
+    font-size: 2.8rem;
+  }
+
+
+
+
+
+
+
 }
 
