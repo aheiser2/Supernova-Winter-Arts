@@ -183,6 +183,10 @@ html{
   background-color: rgba(0,0,0,.2);
   font-size: 16px;
 }
+
+#contactPage main {
+  padding-bottom: 0;
+}
 /*End of Contact Page*/
 
 /*Contribution Levels Page*/
@@ -299,10 +303,10 @@ html{
 
 /*FAQ Page*/
 #FAQPage .accordion-menu p, #FAQPage .accordion-menu ul li li {
-	color: rgba(66, 54, 120, 0.8);
+	color: rgb(128, 85, 134)
 }
 #FAQPage .accordion-menu h2 {
-	color: rgba(28, 30, 91, 0.8);
+  color: rgb(43 47 127)
 }
 #FAQPage .accordion-menu ul {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 
@@ -310,6 +314,12 @@ html{
 }
 #FAQPage .accordion-menu ul ul {
 	box-shadow: none
+}
+#FAQPage .star-list {
+    width: 260px;
+    margin: auto;
+    padding: 0 50px;
+    list-style-type: none;
 }
 /*End of FAQ Page*/
 
@@ -398,18 +408,29 @@ height: auto;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 
 	0 8px 8px 0 rgba(42, 107, 136, 0.9);
 } */
- #nextStepsPage p {
-  padding-top: 10px;
-  padding-bottom: 10px;
+ #nextStepsPage address {
+  font-size: 1.5rem;
  }
+ #nextStepsPage p,  #nextStepsPage h5,  #nextStepsPage main ul,  #nextStepsPage main a {
+  padding: 15px 30px;
+ }
+ #nextStepsPage main {
+  background-color: rgba(88, 49, 44, 0.6);
+  border-radius: 25px;
+  margin: 20px 20%
+ }
+#nextStepsPage .star-list {
+    width: auto;
+    margin: auto;
+    padding: 0 50px;
+    list-style-type: none;
+}
+
 /*End of Next Steps Page*/
 
 /*Our Mission Page*/
 #ourMissionPage p {
       padding: 10px 70px;
-}
-#ourMissionPage p:last-child {
-      padding: 10px 50px 100px;
 }
 /*End of Our Mission Page*/
 
@@ -479,7 +500,6 @@ article > ul, section > ul {
   padding: 40px 40px;
   border-radius: 25px;
   background-color: rgba(10, 18, 39, 0.6);
-  /* background-color: rgba(177, 129, 35, 0.4); */
 }
 
 #calSec {
@@ -491,7 +511,6 @@ article > ul, section > ul {
   background-color: rgba(255,255,255, 0.2);
   border-radius: 20px;
   padding: 20px;
-  /* overflow-y: visible; */
   width: fit-content;
   margin: 0px auto 30px;
 }
@@ -537,6 +556,9 @@ article > ul, section > ul {
   max-width: 90%;
   height: auto;
 }
+ #nextStepsPage main {
+  margin: 20px 10%
+ }
 }
 
 @media(max-width: 800px){

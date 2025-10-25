@@ -71,7 +71,7 @@
 } */
 
 .inner-list, .accordion-menu ul li li {
-    background-color: #3bf66a;
+    background-color: #ffffff;
     position: static;
 	padding: 10px 0;
 	margin: 0;
@@ -115,6 +115,7 @@
 .accordion-menu ul li:nth-of-type(33) { animation-delay: 3.3s; }
 .accordion-menu ul li:nth-of-type(34) { animation-delay: 3.4s; }
 .accordion-menu ul li:nth-of-type(35) { animation-delay: 3.5s; }
+.accordion-menu ul li:nth-of-type(36) { animation-delay: 3.6s; }
 .accordion-menu ul li:last-of-type { padding-bottom: 0; }
 
 
