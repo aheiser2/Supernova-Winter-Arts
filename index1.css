@@ -156,7 +156,7 @@ nav li:first-child{
     width: 250px;
     z-index: 999;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
     flex-direction: column;
@@ -166,6 +166,10 @@ nav li:first-child{
 
 .sidebar li{
     width: 100%;
+    font-size: 1.6rem;
+    height: 80px;
+    /* font-size: 1.2rem;
+    height: 50px; */
 }
 
 .sidebar a{
@@ -503,8 +507,7 @@ footer {
         width: 75%;
         margin: auto;
         padding: 0 20px;
-        list-style-type: none;
-        
+        list-style-type: none;     
     }
 
     .row {
@@ -514,7 +517,7 @@ footer {
     
 }
 
-@media(max-width: 480px){  
+@media(max-width: 500px){  
     .sidebar{
         width: 100%;
     } 

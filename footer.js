@@ -17,17 +17,18 @@ function createFooter(){
                     <div class="footer-nonprofit__links">
                         <h3>Our Work</h3>
                         <ul>
-                            <li><a href="#">Impact Reports</a></li>
-                            <li><a href="#">Financials</a></li>
+                        <!--<li><a href="#">Impact Reports</a></li>
+                            <li><a href="#">Financials</a></li>-->
                             <li><a href="./importantdocs.html">Founding Documents</a></li>
                             <li><a href="./calendar.html">Events</a></li>
                         </ul>
                     </div>
                 </div>
-                <div class="footer-nonprofit__cta">
-                    <p>Your support makes our program possible. Help us keep performing by making a donation today!</p>
-                    <a href="./support.html" class="footer-nonprofit__donate-button">Donate Now</a>
-                </div>
+                
+
+
+
+
             </div>
 
             <div class="footer-nonprofit__partners">
@@ -42,10 +43,18 @@ function createFooter(){
 
             <div class="footer-nonprofit__bottom">
                 <p>&copy; Supernova Winter Arts, All Rights Reserved.</p>
-                <p>Registered Charity Number: 12345-6789.</p>
+              
             </div>
     </footer>
         `
+
+        //  <p>Registered Charity Number: 12345-6789.</p>
+
+        /*<div class="footer-nonprofit__cta">
+                    <p>Your support makes our program possible. Help us keep performing by making a donation today!</p>
+                    <a href="./support.html" class="footer-nonprofit__donate-button">Donate Now</a>
+                </div>*/
+
 
 const footer = template.content.firstElementChild
 

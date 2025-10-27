@@ -324,26 +324,20 @@ html{
 /*End of FAQ Page*/
 
 /*History Page*/
-#historyPage p {
+#historyStory p {
       padding: 10px 70px;
 }
-#historyPage p:last-child {
+#historyStory p:last-child {
       padding: 10px 50px 100px;
+}
+#historyStory {
+  background-color: rgba(37, 6, 13, 0.6);
+  border-radius: 25px;
+  margin: 0 10%
 }
 /*End of History Page*/
 
 /*Home Page*/
-/* #SNlogo {
-  margin: auto;
-background-image: url('images/Official_Supernova_Design_1_-removebg-preview.png');
-  width: 900px;  
-height: 600px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  border: 0px;
-} */
-
 #SNlogo {
   margin: 30px auto;
   width: 70vw;  
@@ -363,6 +357,11 @@ height: auto;
 
 #flag1 {
   max-width: 100%
+}
+
+#whatIsBox {
+  background-color: rgba(112, 35, 66, 0.5);
+  border-radius: 25px 0 0 25px;
 }
 
 #whatIsBox > h4 {
@@ -411,7 +410,7 @@ height: auto;
  #nextStepsPage address {
   font-size: 1.5rem;
  }
- #nextStepsPage p,  #nextStepsPage h5,  #nextStepsPage main ul,  #nextStepsPage main a {
+ #nextStepsPage main p,  #nextStepsPage main h5,  #nextStepsPage main ul,  #nextStepsPage main a {
   padding: 15px 30px;
  }
  #nextStepsPage main {
@@ -429,25 +428,23 @@ height: auto;
 /*End of Next Steps Page*/
 
 /*Our Mission Page*/
-#ourMissionPage p {
-      padding: 10px 70px;
+#missionText p {
+  padding: 20px 70px;
+}
+#missionText p:last-child {
+  padding: 10px 50px 100px;
+}
+#missionText {
+  /* background-color: rgba(57, 38, 78, 0.6); */
+  /* background-color: rgba(44, 44, 72, 0.6); */
+  /* background-color: rgba(85, 54, 113, 0.6); */
+  background-color: rgba(105, 44,95, 0.5);
+  border-radius: 25px;
+  margin: 0 10%
 }
 /*End of Our Mission Page*/
 
 /*Staff Page*/
-/* .portrait {
-  object-fit: cover;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin: auto;
-  background-size: 300px 350px;
-  color: white;
-  background: 50% 50% no-repeat; 
-    width: 300px;
-    height: 300px;
-    position: relative;
-    display: inline-block;
-} */
-
 .portrait {
   max-width: 60%;
   width: 450px;
@@ -460,6 +457,15 @@ height: auto;
 .portrait:hover {
   box-shadow: 0 12px 20px 10px rgba(27,20,21,0.8);
    background-color: #1B141A;
+}
+.coachBio {
+  /* background-color: rgba(57, 38, 78, 0.6); */
+  /* background-color: rgba(44, 44, 72, 0.6); */
+  /* background-color: rgba(85, 54, 113, 0.6); */
+  background-color: rgba(104, 27, 31, 0.6);
+  border-radius: 25px;
+  margin: 20px 0;
+  padding: 20px 30px 40px;
 }
 /*End of Staff Page*/
 
@@ -536,7 +542,7 @@ article > ul, section > ul {
   /* flex-direction: column; */
 }
 
-#mainCoach, #asstCoach, #flag, #whatIsBox  {
+.coach, #flag, #whatIsBox  {
   /* background: beige; */
   flex: 50%;
   padding: 10px 50px 50px
@@ -557,7 +563,7 @@ article > ul, section > ul {
   height: auto;
 }
  #nextStepsPage main {
-  margin: 20px 10%
+  margin: 20px 5%
  }
 }
 
@@ -574,12 +580,15 @@ article > ul, section > ul {
   #contactPage main {
     flex-direction: column;
   }
+  #whatIsBox {
+    border-radius: 0;
+  }
 
 }
 
 /*Smallest Screens*/
-@media screen and (max-width: 576px) {
-   #mainCoach, #asstCoach, #snowflake, #conSec, #flag, #whatIsBox {
+@media screen and (max-width: 600px) {
+   .coach, #snowflake, #conSec, #flag, #whatIsBox {
     flex: 100%;
     /* color: red; */
   }  
@@ -623,7 +632,14 @@ article > ul, section > ul {
     font-size: 2.8rem;
   }
 
+  /*History Page*/
+  #historyStory, #missionText {
+    margin: 0 5%
+  }
 
+  #historyStory p, #missionText p {
+     padding: 10px 30px;
+  }
 
 
 

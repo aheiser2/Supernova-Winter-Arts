@@ -17,13 +17,13 @@ function createNavbar(){
         </li>
         <li><a href="nextstepspage.html">Next Steps</a></li>
         <li><a href="FAQ.html">FAQ</a></li>
-        <li class="dropdown">
+    <!--<li class="dropdown">
             <a href="#" class="dropbtn">Support</a>
             <div class="dropdown-content">
                 <div><a href="support.html">Ways to Help</a></div>
                 <div><a href="donationwall.html">Donor Wall</a></div>
             </div>
-        </li>
+        </li>-->
         <li><a href="contactpage.html">Contact</a></li>
     </ul>
     <ul>
@@ -39,13 +39,13 @@ function createNavbar(){
         </li>
         <li class="hideOnMobile"><a href="nextstepspage.html">Next Steps</a></li>
         <li class="hideOnMobile"><a href="FAQ.html">FAQ</a></li>
-        <li class="hideOnMobile dropdown">
+    <!--<li class="hideOnMobile dropdown">
             <a href="#" class="hideOnMobile dropbtn">Support</a>       
             <div class="dropdown-content">
                 <div class="hideOnMobile"><a href="support.html">Ways to Help</a></div>
                 <div class="hideOnMobile"><a href="donationwall.html">Donor Wall</a></div>
             </div>
-        </li>
+        </li>-->
         <li class="hideOnMobile"><a href="contactpage.html">Contact</a></li>
         <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M140-254.62v-59.99h680v59.99H140ZM140-450v-60h680v60H140Zm0-195.39v-59.99h680v59.99H140Z"></svg></a>
         </li>
