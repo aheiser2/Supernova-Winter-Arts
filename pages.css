@@ -147,7 +147,15 @@ html{
   border-radius: 25px;
   overflow-y: visible;
   width: 80vw;
-  margin: auto;
+  margin: 25px auto;
+}
+
+#calSec {
+  padding: 50px 100px;
+  background-color: #252020;
+  min-height: 350px;
+  position: relative;
+  top: 50px
 }
 /*End of Calendar Page*/
 
@@ -170,6 +178,7 @@ html{
   justify-content: center;
   align-items: center;
   /* width: 45%; */
+  min-height: 100vh;
   padding: 50px 40px;
   flex-shrink: 0;
   background-color: #7169AE;
@@ -508,11 +517,6 @@ article > ul, section > ul {
   background-color: rgba(10, 18, 39, 0.6);
 }
 
-#calSec {
-  padding: 50px 100px;
-  background-color: #252020;
-}
-
 .iframe-holder {
   background-color: rgba(255,255,255, 0.2);
   border-radius: 20px;
@@ -568,22 +572,24 @@ article > ul, section > ul {
 }
 
 @media(max-width: 800px){
-  /* #snowflake {
+  #snowflake {
     flex: 80%;
   }
   #snowflake1 {
-    max-height: 50%;
+    max-height: 60%;
   }
-  #conSec {
-    flex: 20%;
-  }    */
+
   #contactPage main {
     flex-direction: column;
   }
+
+  #conSec {
+    min-height: 400px
+  }
+
   #whatIsBox {
     border-radius: 0;
   }
-
 }
 
 /*Smallest Screens*/
@@ -602,7 +608,7 @@ article > ul, section > ul {
     font-size: 3.2rem;
   }
   .iframe-holder-2 {
-  width: 90vw;
+    width: 90vw;
   }
 
   #donorOptionsPage .conContainer, #levelsPage .conContainer {
