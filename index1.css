@@ -98,9 +98,8 @@ p, li {
   font-weight: bolder;
 }
 
-hr {
-    height: 25px;
-    color: transparent;
+.break {
+    padding-bottom: 25px;
 }
 
 
