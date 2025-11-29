@@ -25,7 +25,10 @@ function createFooter(){
                     </div>
                 </div>
                 
-
+            <div class="footer-nonprofit__cta">
+                    <p>Your support makes our program possible. Help us keep performing by making a donation today!</p>
+                    <a href="https://donorbox.org/supernova-winter-arts-general-fund" class="footer-nonprofit__donate-button">Donate Now</a>
+                </div>
 
 
 
@@ -50,10 +53,7 @@ function createFooter(){
 
         //  <p>Registered Charity Number: 12345-6789.</p>
 
-        /*<div class="footer-nonprofit__cta">
-                    <p>Your support makes our program possible. Help us keep performing by making a donation today!</p>
-                    <a href="./support.html" class="footer-nonprofit__donate-button">Donate Now</a>
-                </div>*/
+        
 
 
 const footer = template.content.firstElementChild
