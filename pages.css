@@ -207,6 +207,10 @@ html{
   font-size: 2rem;
   padding: 5px 50px;
 }
+
+#levelsPage .conContainer h5{
+  padding: 0 70px;
+}
 #levelsPage .conContainer li {
   font-size: 1.3rem;
 }
@@ -238,7 +242,7 @@ html{
 
 /*Donation Wall Page*/
 #donorWallPage article {
-  height: 350px;
+  height: auto;
 }
 
 #donorWallPage .accordion-menu h2 {
@@ -277,7 +281,7 @@ html{
   background-color: #CAEFF5;
   color: #51AFBD;
   margin: 15px auto;
-  width: 20%;
+  width: 300px;
   display: inline-block;
   border-radius: 15px;
   border: none;
@@ -311,6 +315,10 @@ html{
 /*End of Donation Wall Page*/
 
 /*FAQ Page*/
+#FAQPage h5 {
+  padding: 0 60px 10px;
+}
+
 #FAQPage .accordion-menu p, #FAQPage .accordion-menu ul li li {
 	color: rgb(128, 85, 134)
 }

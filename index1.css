@@ -383,11 +383,11 @@ footer {
     /*end*/
     --footer-bg: #f8f9fa;
     --footer-text: #ffffff;
-    --footer-heading: #727272;
-    --footer-link-hover: #0056b3;
+    --footer-heading: #ff66c4;
+    --footer-link-hover: #5e17eb;
     --footer-border: #ffffff;
-    --donate-button-bg: #020d8d;
-    --donate-button-hover-bg: #030734;
+    --donate-button-bg: #1800ad;
+    --donate-button-hover-bg: #11007f;
     --donate-button-text: #ffffff;
 }      
 
