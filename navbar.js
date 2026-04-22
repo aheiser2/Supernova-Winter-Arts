@@ -22,6 +22,7 @@ function createNavbar(){
             <div class="dropdown-content">
                 <div><a href="support.html">Ways to Help</a></div>
                 <div><a href="donationwall.html">Donor Wall</a></div>
+                <div><a href="bingofundraiser.html">Bingo Fundraiser</a></div>
             </div>
         </li>
         <li><a href="contactpage.html">Contact</a></li>
@@ -44,6 +45,7 @@ function createNavbar(){
             <div class="dropdown-content">
                 <div class="hideOnMobile"><a href="support.html">Ways to Help</a></div>
                 <div class="hideOnMobile"><a href="donationwall.html">Donor Wall</a></div>
+                <div><a href="bingofundraiser.html">Bingo Fundraiser</a></div>
             </div>
         </li>
         <li class="hideOnMobile"><a href="contactpage.html">Contact</a></li>

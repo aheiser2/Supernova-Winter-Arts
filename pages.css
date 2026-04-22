@@ -10,7 +10,14 @@ html{
 }
 
 /*Pages Backgrounds*/
-
+#bingoPage{
+  background-image: url('images/3.png');
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
 #boardPage{
   background-image: url('images/Board-Page-Background.png');
   height: 100%;
@@ -131,6 +138,71 @@ html{
   background-position: center;
   background-size: cover;
 }
+
+
+/*Bingo Page*/
+#bingoPage .portrait {
+    /* border: solid 3px #c207f1; */
+    border: solid 3px #FCE39B;
+  border-radius: 50%;
+  box-shadow: 	rgba(27, 20, 26, 0.35) 0px 5px 15px;
+  transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease;
+}
+#bingoPage .portrait:hover {
+  box-shadow: 0 12px 20px 10px rgba(27,20,21,0.8);
+   background-color: #1B141A;
+}
+#bingoPage .coachBio {
+  background-color: rgb(219, 126, 81);
+}
+
+#background {
+   background-color: rgba(15, 30, 39, 0.7);
+  margin: 10px 50px;
+  border-radius: 25px;
+}
+
+#bingoText p {
+  padding: 20px 50px;
+  font-size: 20px;
+}
+
+#bingoText .listHeader {
+  font-size: 30px;
+  margin: 20px 0 0;
+  /* padding: 0; */
+}
+
+#bingoText .listNormal {
+  font-size: 20px;
+   margin: 0 0 0 30px;
+  /* padding: 0; */
+}
+
+#bingoText > ul {
+  /* margin:0; */
+  display: flex;
+  /* display: inline-flex; */
+  flex-direction: column;
+  max-width:600px;
+  padding: 20px 20px;
+  margin: 0 auto; 
+}
+ 
+#bingoText ul li {
+  text-align: left;
+  /* padding:0; */
+  /* width:150px; */
+  margin:10px 10px;
+}
+
+#bingoPage hr {
+  height: 100px;
+  /* border: 6px solid #CAEFF5; */
+  border: none
+  /* border-radius: 5px; */
+}
+/*End of Bingo Page*/
 
 /*Board Page*/
 /*End of Board Page*/
@@ -558,7 +630,7 @@ article > ul, section > ul {
 .coach, #flag, #whatIsBox  {
   /* background: beige; */
   flex: 50%;
-  padding: 10px 50px 50px
+  padding: 10px 30px 30px
 }
 
 
@@ -578,6 +650,7 @@ article > ul, section > ul {
  #nextStepsPage main {
   margin: 20px 5%
  }
+
 }
 
 @media(max-width: 800px){
@@ -599,6 +672,12 @@ article > ul, section > ul {
   #whatIsBox {
     border-radius: 0;
   }
+
+    /*Bingo Page*/
+   #bingoPage #main {
+  flex-direction: column;
+}
+
 }
 
 /*Smallest Screens*/
@@ -660,10 +739,6 @@ article > ul, section > ul {
   #historyStory p, #missionText p {
      padding: 10px 30px;
   }
-
-
-
-
 
 }
 
