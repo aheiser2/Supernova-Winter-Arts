@@ -46,7 +46,9 @@ function createFooter(){
 
             <div class="footer-nonprofit__bottom">
                 <p>&copy; Supernova Winter Arts, All Rights Reserved.</p>
-              
+                <p><a href="important-docs/Privacy-Policy.pdf">Privacy Policy</a></p>
+                <p><a href="important-docs/Terms-and-Conditions.pdf">Terms and Conditions</a></p>
+                
             </div>
     </footer>
         `
