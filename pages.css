@@ -454,11 +454,13 @@ height: auto;
 }
 
 #whatIsBox > h4 {
-  font-size: 50px;
+  /* font-size: 50px; */
+  font-size: 3rem;
 }
 
 #whatIsBox > p {
   text-align: left;
+  font-size: 1.8rem;
 }
 
 #whatIsBox > ul {
@@ -471,6 +473,7 @@ height: auto;
   padding:0;
   width:150px;
   margin:10px 10px;
+  font-size: 1.8rem;
 }
 
 #homePage h1 {
