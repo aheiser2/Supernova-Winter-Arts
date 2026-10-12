@@ -9,7 +9,7 @@ function createFooter(){
                         <h3>About Us</h3>
                         <ul>
                             <li><a href="./ourmission.html">Our Mission</a></li>
-                            <li><a href="./boardmembers.html">Our Team</a></li>
+                            <li><a href="./boardmembers.html">Our Board</a></li>
                             <li><a href="./history.html">Our History</a></li>
                             <li><a href="./contactpage.html">Contact</a></li>
                         </ul>
